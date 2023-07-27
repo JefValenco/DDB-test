@@ -1,0 +1,113 @@
+.home_container {
+  background-color: $main;
+  height: 100vh;
+  width: 100vw;
+}
+.home_btn1 {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  background-color: $secondary;
+  color: #ffffff;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+
+  &:hover {
+    background-color: $white;
+    color: $secondary;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: 1em;
+  }
+}
+
+.home_disabled {
+  cursor: not-allowed;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  background-color: $gray;
+  color: $darkerGray;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @media (max-width: 900px) {
+    margin-top: 1em;
+  }
+}
+
+.home_closeIcon {
+  width: 20px;
+  height: auto;
+}
+
+.home_closeButton {
+  border: none;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  width: 10%;
+  padding: 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background: $darkerGray;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.home_styleDropdown {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  outline: none;
+  margin-right: 1em;
+
+  option {
+    font-size: 14px;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: 1em;
+  }
+}
+
+.home_p1 {
+  color: $secondary;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: $roboto_medium;
+  margin: 0%;
+  padding-bottom: 0.1em;
+}
+
+.home_modalFilter {
+  display: flex;
+  justify-content: center;
+
+  /* Media query for max-width of 500px */
+  @media (max-width: 900px) {
+    flex-direction: column; /* Elements will be stacked in a column */
+    align-items: center; /* Optional: Centers items horizontally within the div */
+  }
+}

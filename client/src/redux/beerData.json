@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "type": "Rubia",
+    "country": "Colombia",
+    "alcoholPercentage": "0.2",
+    "image": "https://i.pinimg.com/originals/4f/47/82/4f4782e6a37303face1e1c368cbff101.gif"
+  },
+  {
+    "id": "2",
+    "type": "Morena",
+    "country": "Brasil",
+    "alcoholPercentage": "0.8",
+    "image": "https://i.pinimg.com/564x/37/53/1e/37531ed151f534fba97651d7874b59d7.jpg"
+  },
+  {
+    "id": "3",
+    "type": "Roja",
+    "country": "Chile",
+    "alcoholPercentage": "0.1",
+    "image": "https://i.pinimg.com/564x/a5/5e/8d/a55e8d8ec298c966a3b83069e0d99310.jpg"
+  },
+  {
+    "id": "4",
+    "type": "IPA",
+    "country": "EE. UU.",
+    "alcoholPercentage": "0.6",
+    "image": "https://i.pinimg.com/564x/df/0b/d5/df0bd513c5cbc14c4f8e6250c8f5ee97.jpg"
+  },
+  {
+    "id": "5",
+    "type": "Pilsner",
+    "country": "Alemania",
+    "alcoholPercentage": "0.4",
+    "image": "https://i.pinimg.com/564x/47/3f/b2/473fb299001342c5118eaa4a7d0d3968.jpg"
+  },
+  {
+    "id": "6",
+    "type": "Stout",
+    "country": "Irlanda",
+    "alcoholPercentage": "0.7",
+    "image": "https://i.pinimg.com/564x/15/e3/9e/15e39e7b5b89d35639df08272644ce47.jpg"
+  },
+  {
+    "id": "7",
+    "type": "Lager",
+    "country": "Canadá",
+    "alcoholPercentage": "0.5",
+    "image": "https://i.pinimg.com/564x/22/6d/71/226d71dc684f0b1c573476565f4c74bd.jpg"
+  },
+  {
+    "id": "8",
+    "type": "Wheat",
+    "country": "Bélgica",
+    "alcoholPercentage": "0.4",
+    "image": "https://i.pinimg.com/736x/be/bd/30/bebd30cd297ffe5e619be3618363e9e2.jpg"
+  },
+  {
+    "id": "9",
+    "type": "Morena",
+    "country": "México",
+    "alcoholPercentage": "0.3",
+    "image": "https://i.pinimg.com/564x/bf/1b/a7/bf1ba786784950921c4c835e4ac849ac.jpg"
+  },
+  {
+    "id": "10",
+    "type": "Roja",
+    "country": "Inglaterra",
+    "alcoholPercentage": "0.6",
+    "image": "https://i.pinimg.com/564x/f9/dd/5e/f9dd5e72bbc99e2fbaf8f92efb16a8f0.jpg"
+  },
+  {
+    "id": "11",
+    "type": "Porter",
+    "country": "Rusia",
+    "alcoholPercentage": "0.7",
+    "image": "https://i.pinimg.com/564x/9c/37/a3/9c37a387a4f95a27eb102011a6a3c3dc.jpg"
+  },
+  {
+    "id": "12",
+    "type": "Roja",
+    "country": "Austria",
+    "alcoholPercentage": "0.5",
+    "image": "https://i.pinimg.com/564x/67/c1/f9/67c1f95b1b1ebc2c9b42eea383143086.jpg"
+  }
+]
