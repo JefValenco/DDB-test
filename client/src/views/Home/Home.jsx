@@ -24,7 +24,7 @@ const Home = () => {
   const beerTypes = useSelector((state) => state.beerType);
   const [selectedType, setSelectedType] = useState("");
   const [selectedOrder, setSelectedOrder] = useState("");
-  const [isLoading2, setIsLoading2] = useState(false);
+
   const [showModal, setShowModal] = useState(false);
 
   const currentBeers = beers;
@@ -93,7 +93,7 @@ const Home = () => {
     return (
       <div>
         <span
-          /*   className={styles.loader} */
+          className="home_loader"
           style={{ backgroundColor: "#ebcaca", width: "100%", height: "100%" }}
         ></span>
       </div>
@@ -113,10 +113,11 @@ const Home = () => {
         <div>
           <div>
             <a onClick={() => setShowModal(true)} style={{ cursor: "pointer" }}>
-              {/* <button className={styles.btnPrimary}>Filter</button> */}
-              <button className="home_btn1 ">Filter</button>
+              <button className="home_btn ">Filter</button>
             </a>
           </div>
+
+          {/* Modal Section */}
 
           <Modal
             show={showModal}
@@ -130,9 +131,11 @@ const Home = () => {
             <Modal.Body
               style={{
                 backgroundColor: "#F3F0EB",
+                borderRadius: "20px",
               }}
             >
               {/* Closing Buttom */}
+
               <div
                 style={{
                   position: "sticky",
@@ -150,13 +153,12 @@ const Home = () => {
                   className="home_closeButton"
                   onClick={() => setShowModal(false)}
                 >
-                  <img
-                    src={xImg}
-                    alt="xImg" /* className={styles.imageSide2}  */
-                    className="home_closeIcon"
-                  />
+                  <img src={xImg} alt="xImg" className="home_closeIcon" />
                 </button>
               </div>
+
+              {/* Modal dropdowns */}
+
               <div className="home_modalFilter">
                 <select
                   className="home_styleDropdown"
@@ -197,6 +199,8 @@ const Home = () => {
                   <option value="low">low </option>
                   <option value="high">high </option>
                 </select>
+
+                {/* Send &  Clear */}
 
                 <div className="home_modalFilter">
                   <button
@@ -252,21 +256,10 @@ const Home = () => {
           </Modal>
         </div>
 
+        {/* CardsContainer */}
+
         <CardsContainer currentBeers={currentBeers} />
       </div>
-
-      {isLoading2 && (
-        <div>
-          <span
-            /* className={styles.loader} */
-            style={{
-              backgroundColor: "#ebcaca",
-              width: "100%",
-              height: "100%",
-            }}
-          ></span>
-        </div>
-      )}
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.cardContainer_container {
+  border: none;
+  display: flex;
+
+  flex-direction: row;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5em;
+  padding: 30px;
+  background-color: $main;
+}

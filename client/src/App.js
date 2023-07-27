@@ -1,10 +1,9 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../src/views/index";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Routes>
         {" "}
         <Route exact path="/" element={<Home />} />

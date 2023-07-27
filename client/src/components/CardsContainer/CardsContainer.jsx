@@ -1,9 +1,8 @@
 import Card from "../Card/Card";
-import styles from "./CardsContainer.module.css";
 
 const CardsContainer = ({ currentBeers }) => {
   return (
-    <div className={styles.container}>
+    <div className="cardContainer_container">
       {currentBeers.map((beer) => {
         return (
           <div>
